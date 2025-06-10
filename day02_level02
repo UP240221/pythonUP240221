@@ -1,0 +1,80 @@
+first_name = 'Martin'
+last_name = 'Emanuel'
+full_name = 'Martin Emanuel Perez Almaguer'
+country = 'AGS'
+city = 'Ags'
+age = '18 years'
+year = '2025'
+is_married = 'false'
+is_true = 'true'
+is_ligh_on = 'true'
+first_name, last_name, country, city = 'Martin', 'Emanuel' , 'AGS', 'Ags'
+
+#Level 2 
+print("Data Tyes:")
+print("first_name:", type(first_name))
+print("last_name", type(last_name))
+print("full_name:", type(full_name))
+print("country:", type(country))
+print("city", type(city))
+print("age:", type(age))
+print("year:", type(year))
+print("is_married:", type(is_married))
+print("is_true:", type(is_true))
+print("is_ligh_on:", type(is_ligh_on))
+
+if len(first_name) > len(last_name):
+ print("first name is longer than last name")
+elif len(first_name) < len(last_name):
+  print("last name is longer than first name")
+else:
+  print("first name and last name have equal length")
+
+#number operatiolns
+num_one = 5
+num_two = 6
+
+total = num_one + num_two
+diff = num_one - num_two
+product= num_one * num_two
+division = num_one/num_two
+remainder = num_one % num_two
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+print("\nNumber Operations:")
+print("Total:", total)
+print("Difference:", diff)
+print("Product:", product)
+print("Division:", division)
+print("Remainder:", remainder)
+print("Exponent:", exp)
+print("Floor division:", floor_division)
+
+#Circle calculations
+radious= 30
+pi= 3.1416
+area_of_circle= pi * radious ** 2 
+circum_of_circle = 2 * pi* radious
+
+#User print for radious
+radious = float(input("/nEnter a radious for the circle: "))
+area= pi * radious ** 2
+print("Area with your radious:", area)
+
+#Use information input
+print("/nPlease enter your personal information:")
+first_name= input("first name: ")
+last_name= input("last name: ")
+country = input("country: ")
+age = input("age: ")
+
+print("/nUser Information:")
+print("first_name:", first_name)
+print("last_name:", last_name)
+print("country:", country)
+print("age:", age)
+
+#Python keywords
+print("/nPython keywords")
+help('keywords')
